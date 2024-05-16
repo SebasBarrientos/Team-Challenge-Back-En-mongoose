@@ -13,7 +13,6 @@ const TaskSchema = new mongoose.Schema({
   ,
     completed: {
         type: Boolean,
-        required: [true, "Please complete the email field"],
       }
   
 }, { timestamps: true });
